@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKBI Masterclass | Cost Accounting Exam Prep</title>
+    <meta name="description" content="A comprehensive, interactive study guide for Cost Accounting (Akuntansi Biaya) TM 1-7.">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+    <div id="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header" style="justify-content: space-between;">
+                <span class="gradient-text">AKBI Masterclass</span>
+                <button id="themeToggleBtn" class="theme-toggle" title="Toggle Theme" onclick="toggleTheme()">☀️</button>
+            </div>
+            <nav class="sidebar-nav" id="sidebar-nav">
+                <!-- Navigation items injected via JS -->
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Mobile header toggle if needed -->
+            <div id="view-container">
+                <!-- Content injected via JS -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Data Modules (Global variables to avoid CORS on file://) -->
+    <script>
+        window.AKBI_DATA = {};
+    </script>
+    <script src="js/data/home.js"></script>
+    <script src="js/data/tm1.js"></script>
+    <script src="js/data/tm2.js"></script>
+    <script src="js/data/tm3.js"></script>
+    <script src="js/data/tm4.js"></script>
+    <script src="js/data/tm5.js"></script>
+    <script src="js/data/tm6.js"></script>
+    <script src="js/data/tm7.js"></script>
+    <script src="js/data/interactive.js"></script>
+    <script src="js/data/tips.js"></script>
+    <script src="js/data/quiz.js"></script>
+    
+    <!-- Application Logic -->
+    <script src="js/app.js"></script>
+</body>
+</html>
